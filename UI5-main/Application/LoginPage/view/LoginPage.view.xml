@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.UI5Starter.Application.LoginPage.controller.LoginPage"
+	xmlns="sap.m" 
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns:core="sap.ui.core">
+    <Page showHeader="false">
+        
+    </Page>
+</mvc:View>

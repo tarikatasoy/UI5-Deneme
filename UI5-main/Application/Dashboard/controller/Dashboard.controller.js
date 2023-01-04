@@ -25,11 +25,13 @@ sap.ui.define(
               console.log(res);
               oModel.setProperty("/ProductList", res);
             },
-            selectUrun:function(oEvent){
-              debugger;
-            }
           });
         },
+        secim: function(oEvent){
+          var urun = oModel.getProperty(oEvent.oSource.getBindingContext().sPath);
+          oModel.setProperty('/SelectedProduct',urun)
+        }
+        
       }
     );
   }

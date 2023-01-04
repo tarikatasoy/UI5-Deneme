@@ -27,7 +27,7 @@ sap.ui.define([
                     name: 'Dashboard',
                     targetControl: 'masterAppView',
                 },{
-                    pattern: 'LoginPage',
+                    pattern: '',
                     viewPath: 'com.UI5Starter.Application.LoginPage.view',
                     view: 'LoginPage',
                     name: 'LoginPage',
